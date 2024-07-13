@@ -19,6 +19,8 @@
 		89C7F2DB2C42E6A50013800F /* HelloLifeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C7F2DA2C42E6A50013800F /* HelloLifeTests.swift */; };
 		89C7F2E52C42E6A50013800F /* HelloLifeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C7F2E42C42E6A50013800F /* HelloLifeUITests.swift */; };
 		89C7F2E72C42E6A50013800F /* HelloLifeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C7F2E62C42E6A50013800F /* HelloLifeUITestsLaunchTests.swift */; };
+		89D8BDD02C42F4660013F282 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 89D8BDCE2C42F4660013F282 /* README.md */; };
+		89D8BDD12C42F4660013F282 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 89D8BDCF2C42F4660013F282 /* LICENSE */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		89C7F2E02C42E6A50013800F /* HelloLifeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloLifeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		89C7F2E42C42E6A50013800F /* HelloLifeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloLifeUITests.swift; sourceTree = "<group>"; };
 		89C7F2E62C42E6A50013800F /* HelloLifeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloLifeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		89D8BDCE2C42F4660013F282 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		89D8BDCF2C42F4660013F282 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +88,8 @@
 		89C7F2BD2C42E6A20013800F = {
 			isa = PBXGroup;
 			children = (
+				89D8BDCF2C42F4660013F282 /* LICENSE */,
+				89D8BDCE2C42F4660013F282 /* README.md */,
 				89C7F2C82C42E6A30013800F /* HelloLife */,
 				89C7F2D92C42E6A50013800F /* HelloLifeTests */,
 				89C7F2E32C42E6A50013800F /* HelloLifeUITests */,
@@ -254,7 +260,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89D8BDD02C42F4660013F282 /* README.md in Resources */,
 				89C7F2D12C42E6A40013800F /* Preview Assets.xcassets in Resources */,
+				89D8BDD12C42F4660013F282 /* LICENSE in Resources */,
 				89C7F2CE2C42E6A40013800F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
